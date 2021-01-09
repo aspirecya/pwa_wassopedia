@@ -44,7 +44,7 @@ const Navigation = ({ open }) => {
             />
 
             <NavItem
-                to="/register"
+                to="/login"
                 icon="test"
                 text="Connexion"
                 className="separated-item"

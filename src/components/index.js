@@ -9,6 +9,7 @@ import Input from "./Input";
 import Form from "./Form";
 import Button from "./Button";
 import RegisterForm from "./RegisterForm"
+import LoginForm from "./LoginForm";
 
 export {
     Burger,
@@ -21,5 +22,6 @@ export {
     Input,
     Form,
     Button,
-    RegisterForm
+    RegisterForm,
+    LoginForm
 };

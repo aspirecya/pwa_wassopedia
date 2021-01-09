@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import * as Pages from "../pages"
 
 const Router = ({children, ...props}) => {
@@ -11,6 +11,10 @@ const Router = ({children, ...props}) => {
 
                 <Route exact path="/register">
                     <Pages.Register />
+                </Route>
+
+                <Route exact path="/login">
+                    <Pages.Login />
                 </Route>
             </Switch>
         </>

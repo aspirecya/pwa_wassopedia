@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Navigation from "../layouts/Navigation";
-import {BrowserRouter as Router} from "react-router-dom";
+import Heading from "./Heading";
 
 const StyledHeader = styled.div`
   background-color: #282c34;
@@ -10,14 +9,13 @@ const StyledHeader = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
   width: 100%;
 `;
 
 const Header = () => (
     <StyledHeader>
-        <h1>Wassopedia</h1>
+        <Heading level={1}>Wassopedia</Heading>
     </StyledHeader>
 );
 export default Header;
