@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import editor from '@editorjs/editorjs';
+import {useEffect} from "react";
+import EditorJS from "@editorjs/editorjs";
 
 const StyledEditorBox = styled.div`
     display: block;
@@ -11,10 +12,12 @@ const EditorJs = () => {
             holder: "editor-div",
         });
     })
+
+    return (
+        <>
+            <StyledEditorBox id="editor-div"></StyledEditorBox>
+        </>
+    );
 }
 
-return (
-    <>
-        <StyledEditorBox id="editor-div"></StyledEditorBox>
-    </>
-);
+export default EditorJs;

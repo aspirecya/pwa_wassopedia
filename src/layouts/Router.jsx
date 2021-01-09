@@ -8,6 +8,10 @@ const Router = ({children, ...props}) => {
                 <Route exact path="/">
                     <Pages.Home />
                 </Route>
+
+                <Route exact path="/register">
+                    <Pages.Register />
+                </Route>
             </Switch>
         </>
     )

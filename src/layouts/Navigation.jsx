@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import NavItem from "../components/NavItem";
 
 const StyledNavigation = styled.nav`
-  @media (max-width: ${({ theme }) => theme.mobile}) {
+  @media (max-width: ${({ theme }) => theme.screens.sm}) {
     width: 70%;
   }        
 
@@ -10,15 +10,14 @@ const StyledNavigation = styled.nav`
   display: flex;
   flex-direction: column;
   padding-top: 6rem;
-  background: ${({ theme }) => theme.primaryLight};
+  background: ${({ theme }) => theme.colors.primaryLight};
   height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
   transition: transform 0.3s ease-in-out;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
-  box-shadow: 1px 0 8px 0 rgba(0,0,0,0.35);;
-  
+  box-shadow: 1px 0 8px 0 rgba(0, 0, 0, 0.35);
 `;
 
 
@@ -27,7 +26,7 @@ const Navigation = ({ open }) => {
     return (
         <StyledNavigation open={open}>
             <NavItem
-                to="/home"
+                to="/"
                 icon="test"
                 text="Accueil"
             />
@@ -45,7 +44,7 @@ const Navigation = ({ open }) => {
             />
 
             <NavItem
-                to="/test"
+                to="/register"
                 icon="test"
                 text="Connexion"
                 className="separated-item"

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import GlobalTheme from '../config/GlobalTheme';
-import theme from '../config/theme';
+import THEME from '../config/theme';
 import Header from "../components/Header";
 import {ThemeProvider} from "styled-components";
 import Burger from "../components/Burger";
@@ -12,7 +12,7 @@ function App() {
     const [open, setOpen] = useState(false);
 
     return (
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={THEME}>
           <BrowserRouter>
               <>
                 <GlobalTheme />

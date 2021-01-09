@@ -10,16 +10,16 @@ const StyledLink = styled(RouterLink)`
     width: 100%;
     font-size: 1rem;
     letter-spacing: 0.1rem;
-    color: ${({ theme }) => theme.primaryDark};
+    color: ${({ theme }) => theme.colors.primaryDark};
     text-decoration: none;
     transition: color 0.3s linear;
     
-    @media (max-width: ${({ theme }) => theme.mobile}) {
+    @media (max-width: ${({ theme }) => theme.screens.sm}) {
       font-size: .9rem;
     }
     
     &:hover {
-      color: ${({ theme }) => theme.primaryHover};
+      color: ${({ theme }) => theme.colors.primaryHover};
     }
   
 `;
