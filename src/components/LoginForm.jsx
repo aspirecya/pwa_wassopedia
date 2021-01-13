@@ -43,7 +43,7 @@ const LoginForm = () => {
         })
             .then(res => {
                 localStorage.setItem('token', res.headers['x-access-token']);
-                history.push('/');
+                history.go(0);
             })
             .catch(err => {
                 setFormError('Error while logging in.');

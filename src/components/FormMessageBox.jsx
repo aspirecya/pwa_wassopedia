@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const StyledDiv = styled.div`
   padding: 20px;
   color: white;
-  margin-bottom: 15px;
+  margin: 1rem 0rem;
   
   &.success {
     background-color: ${({ theme }) => theme.colors.success};

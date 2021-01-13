@@ -17,6 +17,10 @@ const Router = ({children, ...props}) => {
                     <Pages.Login />
                 </Route>
 
+                <Route exact path="/logout">
+                    <Pages.Logout />
+                </Route>
+
                 <Route exact path="/articles">
                     <Pages.Articles />
                 </Route>

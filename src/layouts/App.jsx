@@ -1,6 +1,6 @@
 import React from 'react';
 import THEME from '../config/theme';
-import { Header, Footer, Container } from "../components/index";
+import { Header, Container } from "../components/index";
 import { ThemeProvider} from "styled-components";
 import Router from "../layouts/Router";
 import {BrowserRouter} from "react-router-dom";

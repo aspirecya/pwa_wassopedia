@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 const StyledLink = styled(RouterLink)`
     width: 100%;
+    color: white;
     font-size: 1rem;
     letter-spacing: 0.1rem;
     text-decoration: none;

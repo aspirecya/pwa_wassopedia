@@ -46,7 +46,7 @@ const ArticleView = ({ id, ...props }) => {
 
     return (
         <Container>
-            <Button className="cta-link">
+            <Button>
                 Edit the article
             </Button>
 

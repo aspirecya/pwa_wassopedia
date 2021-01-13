@@ -32,44 +32,47 @@ const StyledHeader = styled.div`
     margin-right: 0.5rem;
   }
   
-  nav {
+  .nav {
     display: flex;
     flex-direction: row;
+    color: white;
   }
 `;
 
-const Header = () => (
-    <StyledHeader>
-        <Icon name="logo" width={40} className="item-logo" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-        <Heading level={1} className="heading-class">Wassopedia</Heading>
+const Header = () => {
+    return (
+        <StyledHeader>
+            <Icon name="logo" width={40} className="item-logo" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            <Heading level={1} className="heading-class">Wassopedia</Heading>
 
-        <nav>
-            <NavItem
-                to="/"
-                icon="home"
-                text="Home"
-            />
-
-            <NavItem
-                to="/articles"
-                icon="article"
-                text="Articles"
-            />
-
-            { isLogged() ?
+            <nav className="nav">
                 <NavItem
-                    to="/login"
-                    icon="logout"
-                    text="Logout"
+                    to="/"
+                    icon="home"
+                    text="Home"
                 />
-                :
+
                 <NavItem
-                    to="/login"
-                    icon="login"
-                    text="Login"
+                    to="/articles"
+                    icon="article"
+                    text="Articles"
                 />
-            }
-        </nav>
-    </StyledHeader>
-);
+
+                { isLogged() ?
+                    <NavItem
+                        to="/logout"
+                        icon="logout"
+                        text="Logout"
+                    />
+                    :
+                    <NavItem
+                        to="/login"
+                        icon="login"
+                        text="Login"
+                    />
+                }
+            </nav>
+        </StyledHeader>
+    );
+}
 export default Header;

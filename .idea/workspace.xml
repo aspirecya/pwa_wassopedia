@@ -2,33 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81682b07-ed11-4eef-b2a2-6806f85c6c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ArticleForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArticleItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArticleList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArticleView.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FormMessageBox.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Paragraph.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/article.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/articles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/logout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticleView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticleView.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Editor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Editor.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormMessageBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormMessageBox.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Heading.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Heading.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icon.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Link.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Link.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/GlobalTheme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Navigation.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Router.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
@@ -88,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610027879193</updated>
       <workItem from="1610027880344" duration="81267000" />
-      <workItem from="1610561209800" duration="1465000" />
+      <workItem from="1610561209800" duration="4792000" />
     </task>
     <servers />
   </component>
