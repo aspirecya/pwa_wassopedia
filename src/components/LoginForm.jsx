@@ -6,6 +6,7 @@ import { useState } from "react";
 import { useHistory, Redirect } from 'react-router-dom';
 import { isLogged } from '../utils/user';
 import axios from 'axios';
+import {FormMessageBox} from "./index";
 
 const StyledDiv = styled.div`
     width: 50%;
@@ -72,7 +73,7 @@ const LoginForm = () => {
                     required
                 />
 
-                { formError ? <span>{formError}</span> : null }
+                { formError ? <FormMessageBox type="error">{formError}</FormMessageBox> : null }
                 <Button type="submit">
                     Login
                 </Button>

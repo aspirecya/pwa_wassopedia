@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81682b07-ed11-4eef-b2a2-6806f85c6c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/logout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ArticleView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticleView.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FormMessageBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormMessageBox.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Link.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Link.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Router.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610027879193</updated>
       <workItem from="1610027880344" duration="81267000" />
-      <workItem from="1610561209800" duration="4792000" />
+      <workItem from="1610561209800" duration="5047000" />
     </task>
     <servers />
   </component>

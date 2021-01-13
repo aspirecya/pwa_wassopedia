@@ -2,6 +2,7 @@ import { Paragraph, Container, Heading, Button } from "./index";
 import styled from 'styled-components';
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
+import {isLogged} from "../utils/user";
 
 const StyledDiv = styled.div`
     display: flex;
@@ -36,12 +37,16 @@ const ArticleView = ({ id, ...props }) => {
     }, []);
 
     const removeItem = (itemToBeDeleted) => {
-        const index = allArticles.indexOf(itemToBeDeleted);
-        const removed = allArticles.splice(index, 1);
-        setAllArticles(removed);
+        if(isLogged()) {
+            const index = allArticles.indexOf(itemToBeDeleted);
+            const removed = allArticles.splice(index, 1);
+            setAllArticles(removed);
 
-        localStorage.setItem('articles', JSON.stringify(allArticles));
-        history.push('/articles');
+            localStorage.setItem('articles', JSON.stringify(allArticles));
+            history.push('/articles');
+        } else {
+            history.push('/login');
+        }
     };
 
     return (
