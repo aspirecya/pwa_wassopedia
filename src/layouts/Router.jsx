@@ -16,6 +16,18 @@ const Router = ({children, ...props}) => {
                 <Route exact path="/login">
                     <Pages.Login />
                 </Route>
+
+                <Route exact path="/articles">
+                    <Pages.Articles />
+                </Route>
+
+                <Route exact path="/articles/:id">
+                    <Pages.Articles />
+                </Route>
+
+                <Route exact path="/article">
+                    <Pages.Article />
+                </Route>
             </Switch>
         </>
     )

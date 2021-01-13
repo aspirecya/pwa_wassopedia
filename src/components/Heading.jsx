@@ -5,7 +5,7 @@ const StyledHeading = styled.div`
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
-    color: ${props => ( props.theme.colors.primaryDark )}
+    color: ${props => ( props.theme.colors.primaryDark )};
 `;
 
 const Heading = ({ children, level = 1, ...props }) => {

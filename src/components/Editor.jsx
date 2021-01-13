@@ -4,6 +4,8 @@ import EditorJS from "@editorjs/editorjs";
 
 const StyledEditorBox = styled.div`
     display: block;
+    color: ${({ theme }) => theme.colors.primaryDark};
+    border: black 1px solid;
 `;
 
 const EditorJs = () => {

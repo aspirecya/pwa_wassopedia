@@ -7,6 +7,7 @@ const Home = ({ children, ...props }) => {
             <Heading level={1}>
                 Welcome to Wassopedia
             </Heading>
+
         </>
     );
 };

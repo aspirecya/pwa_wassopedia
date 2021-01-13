@@ -5,7 +5,7 @@ import Icon from "../components/Icon";
 
 const StyledNavItem = styled.div`
   display: flex;
-  
+  margin-left: 1rem;
   .item-icon {
     min-width: 20px;
     width: 20px;
@@ -14,30 +14,16 @@ const StyledNavItem = styled.div`
     padding: 8px;
   }
   
-  &.separated-item {
-    margin: 1rem 0 1rem 0;
+  .bg-indigo {
+    background-color: ${({theme}) => theme.colors.indigo};
   }
-  
-  &:first-child {
-    border-top: 1px gray solid;
-  }
-
-  &:nth-child(1), &:nth-child(2), &:nth-child(3) {
-    border-bottom: 1px gray solid;
-  }
-  
-  &:nth-child(4), &:nth-child(5), &:nth-child(6) {
-    border-top: 1px gray solid;
-    border-bottom: 1px gray solid;
-  }
-  
 `;
 
 const NavItem = ({ children, to, text, icon, className, ...props }) => {
     return (
         <StyledNavItem className={className}>
             <Link to={to}>
-                <Icon name={icon} width={20} className="item-icon"></Icon>
+                <Icon name={icon} width={20} className="item-icon" />
                 <span className="item-text">{text}</span>
             </Link>
         </StyledNavItem>

@@ -2,9 +2,9 @@ import styled from 'styled-components';
 import Form from "./Form";
 import Input from "./Input";
 import Button from "./Button";
-import {useState} from "react";
-import {useHistory, Redirect} from 'react-router-dom';
-import user, {isLogged} from '../utils/user';
+import { useState } from "react";
+import { useHistory, Redirect } from 'react-router-dom';
+import { isLogged } from '../utils/user';
 import axios from 'axios';
 
 const StyledDiv = styled.div`
